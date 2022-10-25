@@ -438,7 +438,7 @@ span > i:hover {
   }
 
   .gray-left-side > img {
-    width: 270px;
+    width: 370px;
     height: 250px;
   }
 
@@ -460,7 +460,7 @@ span > i:hover {
   }
 
   .email-field {
-    width: 16rem;
+    width: 21rem;
     padding: 0.5rem 0.5rem;
     margin-left: 4rem;
   }
@@ -494,7 +494,7 @@ span > i:hover {
   }
 
   .img > img {
-    width: 270px;
+    width: 370px;
   }
 
   /* SECTION 3 */
@@ -523,13 +523,13 @@ span > i:hover {
 
   .green-button {
     margin-right: 2rem;
-    margin-left: 4rem;
+    margin-left: 7rem;
     text-align: center;
   }
 
   .white-right-side > img {
-    width: 270px;
-    height: 250px;
+    width: 370px;
+    height: 350px;
     margin-left: 1.5rem;
     margin-top: 4rem;
     margin-bottom: 2rem;
@@ -538,7 +538,7 @@ span > i:hover {
   /* SECTION 4 */
 
   .white-left-side > img {
-    width: 270px;
+    width: 370px;
     height: 400px;
     margin-left: 1.5rem;
   }
@@ -562,7 +562,7 @@ span > i:hover {
 
   .white-right-side > .green-button {
     margin-right: 2rem;
-    margin-left: 4rem;
+    margin-left: 7rem;
     text-align: center;
   }
 
@@ -596,7 +596,7 @@ span > i:hover {
   }
 
   .card-image {
-    width: 250px;
+    width: 350px;
   }
 
   .center > .green-button {
