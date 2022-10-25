@@ -87,7 +87,7 @@ header {
 
 .gray-left-side > img:hover {
   box-shadow: 0px 7px 10px #8f97a3;
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 .gray-right-side {
@@ -118,9 +118,11 @@ header {
   margin-top: 1rem;
   cursor: pointer;
 }
+
 .input-field > i:hover {
   animation: shake 500ms;
 }
+
 .email-field {
   font-size: 2rem;
   padding: 0.5em 0.5em;
@@ -414,7 +416,7 @@ span > i:hover {
 }
 
 /* MEDIA QUERY */
-@media screen and(max-width: 576px) {
+@media screen and (max-width: 576px) {
   html,
   body {
     width: 100%;
@@ -424,11 +426,216 @@ span > i:hover {
     overflow-x: hidden;
   }
 
-  header {
-    width: 100px !important;
-  }
-
   .nav-links {
     display: none;
+  }
+
+  /* SECTION GRAY */
+  .section-gray {
+    display: flex;
+    flex-direction: column;
+    margin-left: -2.4rem;
+  }
+
+  .gray-left-side > img {
+    width: 270px;
+    height: 250px;
+  }
+
+  .gray-right-side {
+    margin-right: 1rem;
+  }
+
+  .heading-white {
+    margin-top: 2rem;
+    font-size: 2rem;
+    margin-left: 4rem;
+  }
+
+  .paragraph-white {
+    font-size: 1rem;
+    line-height: 2rem;
+    margin-left: 4rem;
+    margin-right: 1rem;
+  }
+
+  .email-field {
+    width: 16rem;
+    padding: 0.5rem 0.5rem;
+    margin-left: 4rem;
+  }
+
+  .input-field > i {
+    margin-left: 4.5rem;
+    font-size: 1.5rem;
+  }
+
+  .section-1-button {
+    font-size: 1rem;
+    right: 2rem;
+  }
+
+  /* SECTION 2 */
+  .heading-black {
+    font-size: 2rem;
+  }
+
+  .numbers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 3rem;
+    margin-right: 4rem;
+  }
+
+  .centerpara {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .img > img {
+    width: 270px;
+  }
+
+  /* SECTION 3 */
+  .section-white {
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+
+  .margin {
+    margin-top: -14rem;
+  }
+
+  .white-left-side > h1 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+
+  .white-left-side > .paragraph-gray {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    line-height: 2rem;
+    font-size: 1rem;
+  }
+
+  .green-button {
+    margin-right: 2rem;
+    margin-left: 4rem;
+    text-align: center;
+  }
+
+  .white-right-side > img {
+    width: 270px;
+    height: 250px;
+    margin-left: 1.5rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  /* SECTION 4 */
+
+  .white-left-side > img {
+    width: 270px;
+    height: 400px;
+    margin-left: 1.5rem;
+  }
+
+  .white-right-side {
+    margin-right: 2rem;
+  }
+
+  .white-right-side > .heading-black {
+    margin-right: 0rem;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+
+  .white-right-side > .para {
+    margin-left: 2rem !important;
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+
+  .white-right-side > .green-button {
+    margin-right: 2rem;
+    margin-left: 4rem;
+    text-align: center;
+  }
+
+  /* SECTION 5 */
+  .section5 {
+    width: auto !important;
+    margin-top: -3rem !important;
+  }
+
+  /* SECTION 6 */
+  .white-left-side > .heading-black {
+    margin-top: -2rem;
+  }
+
+  .white-right-side > .paragraph-gray {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+
+  /* SECTION 7 */
+  .cards {
+    flex-direction: column;
+    margin-left: 0.2rem;
+    margin-top: -1rem;
+  }
+
+  .card {
+    margin-bottom: 1rem;
+  }
+
+  .card-image {
+    width: 250px;
+  }
+
+  .center > .green-button {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+  }
+
+  /* FOOTER */
+
+  .footer-1 {
+    flex-direction: column;
+    margin-left: -4rem;
+  }
+
+  .footer-1-right > ul {
+    margin-left: -4rem;
+    margin-top: 3rem;
+  }
+
+  .footer-1-right > ul > li {
+    padding: 0rem 1rem;
+  }
+
+  .line {
+    margin-left: -4rem;
+    width: 270px !important;
+  }
+
+  .footer-2 {
+    flex-direction: column;
+  }
+
+  .footer-title {
+    margin-left: -4rem;
+    margin-top: 1rem;
+  }
+
+  .footer-items {
+    margin-left: -5rem;
   }
 }
