@@ -459,7 +459,11 @@ span > i:hover {
     margin-right: 1rem;
   }
 
-  .email-field {
+  .input-field {
+    display: none;
+  }
+
+  /* .email-field {
     width: 19rem;
     padding: 0.5rem 0.5rem;
     margin-left: 4rem;
@@ -468,7 +472,7 @@ span > i:hover {
   .input-field > i {
     margin-left: 4.5rem;
     font-size: 1.5rem;
-  }
+  } */
 
   .section-1-button {
     font-size: 1rem;
